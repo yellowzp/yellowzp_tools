@@ -4,7 +4,7 @@ import re
 import time
 
 if __name__ == "__main__":
-    dirs = os.listdir("./")
+    dirs = os.listdir("../")
     path = os.getcwd()
     for dire in dirs:
         if os.path.isfile(dire):
